@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
   
   public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
     int max = candies[0];

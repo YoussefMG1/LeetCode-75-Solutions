@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
   
   public static boolean canPlaceFlowers(int[] flowerbed, int n) {
     int emptyAdjacentSlots = 0;

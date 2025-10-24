@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class Solution {
   public static String reverseVowels(String s) {
     boolean[] isVowel = new boolean[128]; // bảng ASCII

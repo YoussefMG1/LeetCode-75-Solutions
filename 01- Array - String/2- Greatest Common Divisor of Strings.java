@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
   public static String mergeAlternately(String word1, String word2) {
     // StringBuilder is better than String as String creates new object when it changes
     // 7ms , beats 12% -> 0ms , beats 100%
