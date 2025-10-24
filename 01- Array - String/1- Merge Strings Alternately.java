@@ -3,7 +3,7 @@ class Solution {
         // StringBuilder is better than String as String creates new object when it changes
         // 7ms , beats 12% -> 0ms , beats 100%
         StringBuilder result = new StringBuilder();
-        int i=0;
+        int i;
         for(i=0; i< word1.length() && i < word2.length();i++){
           result.append(word1.charAt(i));
           result.append(word2.charAt(i));
