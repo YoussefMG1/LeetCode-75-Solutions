@@ -1,14 +1,5 @@
 class Current {
     public static void main(String[] args) {
-        System.out.println(reverseWords("  hi , how   are they ?  "));
-    }
-    public static String reverseWords(String s) {
-        String[] words = s.split("\\s+");
-        StringBuilder sb = new StringBuilder();
-
-        for(int i = words.length-1; i>=0 ; i--)
-            sb.append(words[i]).append(" ");
-        
-        return sb.toString().trim() ;
+        System.out.println("  hi , how   are they ?  ");
     }
 }
