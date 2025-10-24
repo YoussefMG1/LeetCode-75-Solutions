@@ -4,7 +4,7 @@ import java.util.Collections;
 
 class Current {
     public static void main(String[] args) {
-        System.out.println(reverseWords("  hi , how   are you ?  "));
+        System.out.println(reverseWords("  hi , how   are they ?  "));
     }
     public static String reverseWords(String s) {
         ArrayList<String> words = new ArrayList<>(Arrays.asList(s.trim().split("\\s+")));
